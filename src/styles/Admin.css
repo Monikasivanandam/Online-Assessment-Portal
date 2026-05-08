@@ -1,0 +1,64 @@
+.admin-card {
+
+    width: 450px;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    background:
+        rgba(255,255,255,0.1);
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.4);
+
+    text-align: center;
+
+    color: white;
+}
+
+.admin-card h1 {
+
+    margin-bottom: 30px;
+
+    font-size: 40px;
+}
+
+.admin-btn {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin-top: 20px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background:
+        linear-gradient(
+            45deg,
+            #3b82f6,
+            #06b6d4
+        );
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.admin-btn:hover {
+
+    transform:
+        translateY(-4px);
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,0.3);
+}

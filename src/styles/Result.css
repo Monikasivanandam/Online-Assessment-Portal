@@ -1,0 +1,16 @@
+.result-card {
+  width: 450px;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.score {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #38bdf8;
+}
