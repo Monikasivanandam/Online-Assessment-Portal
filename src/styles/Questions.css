@@ -1,0 +1,19 @@
+.question-card {
+  width: 800px;
+  padding: 30px;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+.option {
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.1);
+}
+
+.option:hover {
+  background: rgba(255,255,255,0.2);
+}
